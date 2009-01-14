@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>firstLineMatch</key>
+	<string>^\d{4}[-/]\d{2}[-/]\d{2}</string>
+	<key>foldingStartMarker</key>
+	<string>^\d{4}[-/]\d{2}[-/]\d{2}</string>
+	<key>foldingStopMarker</key>
+	<string>^$</string>
+	<key>name</key>
+	<string>Changelog text</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\d{4}[-/]\d{2}[-/]\d{2}.*</string>
+			<key>name</key>
+			<string>header.changelog.text.plain</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\t\*.*$</string>
+			<key>name</key>
+			<string>bullet.changelog.text.plain</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>changelog.text.plain</string>
+	<key>uuid</key>
+	<string>4252CB40-74A7-4F09-8D88-43008397F16E</string>
+</dict>
+</plist>
